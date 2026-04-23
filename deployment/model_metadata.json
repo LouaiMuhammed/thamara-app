@@ -1,0 +1,58 @@
+{
+  "model_name": "MobileNetV2 Plant Disease Classifier",
+  "version": "2.0",
+  "num_classes": 14,
+  "classes": [
+    "citrus_black_spot",
+    "citrus_canker",
+    "citrus_foliage_damage",
+    "citrus_greening",
+    "citrus_healthy",
+    "citrus_melanose",
+    "mango_anthracnose",
+    "mango_bacterial_canker",
+    "mango_cutting_weevil",
+    "mango_die_back",
+    "mango_gall_midge",
+    "mango_healthy",
+    "mango_powdery_mildew",
+    "mango_sooty_mould"
+  ],
+  "input_size": [
+    224,
+    224
+  ],
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "accuracy": {
+    "validation": "0.9725",
+    "per_class": {
+      "citrus_black_spot": 0.8235294117647058,
+      "citrus_canker": 1.0,
+      "citrus_foliage_damage": 0.9928571428571429,
+      "citrus_greening": 0.9024390243902439,
+      "citrus_healthy": 0.9944620253164557,
+      "citrus_melanose": 1.0,
+      "mango_anthracnose": 0.9508196721311475,
+      "mango_bacterial_canker": 0.9541666666666667,
+      "mango_cutting_weevil": 1.0,
+      "mango_die_back": 0.9883268482490273,
+      "mango_gall_midge": 0.9563492063492064,
+      "mango_healthy": 0.9863013698630136,
+      "mango_powdery_mildew": 0.9488188976377953,
+      "mango_sooty_mould": 0.8410852713178295
+    }
+  },
+  "training_date": "2026-03-16",
+  "framework": "PyTorch 2.x"
+}

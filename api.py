@@ -31,7 +31,7 @@ app.add_middleware(
 )
 
 DEVICE = torch.device('cpu')
-CHECKPOINT_PATH = ROOT_DIR / 'models' / 'MobileNet_segmented_data.pth'
+CHECKPOINT_PATH = "deployment/mobilenet_v2_plant_disease_segmented.onnx"
 TREATMENTS_PATH = ROOT_DIR / 'assets' / 'treatments.json'
 
 transform = transforms.Compose([

@@ -26,8 +26,8 @@ COPY api.py ./api.py
 COPY src ./src
 COPY assets/treatments.json ./assets/treatments.json
 COPY assets/diseases_description.json ./assets/diseases_description.json
-COPY deployment/models/mobilenet_v2_plant_disease_segmented.pt ./deployment/models/mobilenet_v2_plant_disease_segmented.pt
-COPY deployment/models/model_metadata.json ./deployment/models/model_metadata.json
+COPY deployment/mobilenet_v2_plant_disease_segmented.pt ./deployment/models/mobilenet_v2_plant_disease_segmented.pt
+COPY deployment/model_metadata.json ./deployment/models/model_metadata.json
 
 EXPOSE 8000
 
